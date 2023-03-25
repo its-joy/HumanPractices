@@ -12,7 +12,7 @@
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
         <div class="container">
-          <a class="navbar-brand" href="#">Gluessel</a>
+          <a class="navbar-brand" href="#">Attributes</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -35,7 +35,7 @@
                 <a class="nav-link text-white" href="ProjectDescription.html">Project Description</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="Attribution.html">Attribution</a>
+                <a class="nav-link text-white" href="Attribution.html">Attributes</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="Humanpractices.html">Human Practices</a>
@@ -49,7 +49,7 @@
       </nav>
     <div class="container">
         <h1 class="title text-center py-4">
-            Attributes
+          
 
         </h1>
 
@@ -193,6 +193,18 @@
       
 
     </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+      var nav = document.querySelector('nav');
+
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-dark', 'shadow');
+        } else {
+          nav.classList.remove('bg-dark', 'shadow');
+        }
+      });
+    </script>
 
 
 
