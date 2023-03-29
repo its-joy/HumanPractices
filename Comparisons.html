@@ -1,99 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Comparison Chart</title>
+	<title>Sample Page</title>
 	<style>
 		body {
+			background-image: url('https://images.unsplash.com/photo-1518639192442-8fce0a3669e9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+			background-size: cover;
+			background-position: center;
 			font-family: Arial, sans-serif;
-			background-color: #F4F4F4;
+			font-size: 16px;
+			color: white;
+			transition: background-image 0.5s ease-in-out;
 		}
-
+		
 		.container {
-			max-width: 960px;
-			margin: 0 auto;
-			padding: 20px;
-			background-color: #FFFFFF;
-			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-		}
-
-		h1 {
-			font-size: 36px;
-			font-weight: bold;
-			margin-top: 0;
-			text-align: center;
-			color: #333333;
-		}
-
-		.company-container {
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: space-between;
-			margin-bottom: 20px;
+			justify-content: center;
+			align-items: flex-start;
+			padding: 50px;
+			transition: opacity 1s ease-in-out;
 		}
-
-		.company {
-			flex-basis: 30%;
-			background-color: #FFFFFF;
-			padding: 20px;
-			margin-bottom: 20px;
-			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+		
+		.box {
+			width: calc(50% - 20px);
+			margin: 10px;
+			padding: 30px;
+			background-color: rgba(255, 255, 255, 0.7);
+			border-radius: 5px;
+			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+			transition: transform 0.5s ease-in-out;
 		}
-
-		.company h2 {
-			font-size: 24px;
+		
+		.box-label {
+			display: block;
 			font-weight: bold;
-			margin-top: 0;
-			margin-bottom: 10px;
-			color: #333333;
+			margin-bottom: 20px;
 		}
-
-		.company p {
+		
+		.textarea-container {
+			margin: 50px;
+			padding: 30px;
+			background-color: rgba(255, 255, 255, 0.7);
+			border-radius: 5px;
+			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+			transition: transform 0.5s ease-in-out;
+		}
+		
+		.textarea {
+			width: 100%;
+			height: 300px;
+			padding: 20px;
+			border: none;
+			resize: none;
+			background-color: transparent;
+			color: black;
 			font-size: 16px;
 			line-height: 1.5;
-			margin: 0;
-			color: #666666;
 		}
-
-		table {
-			border-collapse: collapse;
+		
+		input[type="text"] {
 			width: 100%;
-			margin-bottom: 20px;
-			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-			background-color: #FFFFFF;
+			padding: 20px;
+			border: none;
+			background-color: transparent;
+			color: black;
+			font-size: 16px;
+			line-height: 1.5;
 		}
-
-		th {
-			background-color: #333333;
-			color: #FFFFFF;
-			padding: 10px;
-			text-align: left;
-			font-weight: normal;
+		
+		input[type="text"]:read-only {
+			background-color: rgba(255, 255, 255, 0.7);
+			cursor: not-allowed;
 		}
-
-		td {
-			padding: 10px;
-			border: 1px solid #CCCCCC;
-			text-align: left;
+		
+		@media screen and (max-width: 767px) {
+			.box {
+				width: 100%;
+			}
 		}
-
-		tr:nth-child(even) {
-			background-color: #F4F4F4;
-		}
-
 	</style>
 </head>
 <body>
 	<div class="container">
-		<h1>Comparison Chart</h1>
-		<div class="company-container">
-			<div class="company">
-				<h2>Company A</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta quam id eros pharetra, non aliquet velit convallis. Fusce feugiat euismod nisi, eu tempor nulla convallis sit amet. </p>
-			</div>
-			<div class="company">
-				<h2>Company B</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta quam id eros pharetra, non aliquet velit convallis. Fusce feugiat euismod nisi, eu tempor nulla convallis sit amet. </p>
-			</div>
-			<div class="company">
-				<h2>Company C</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta quam id eros phare
+		<div class="box">
+			<label class="box-label">Placeholder Label 1</label>
+			<input type="text" placeholder="Placeholder Text" readonly>
+		</div>
+		<div class="box">
+			<label class="box-label">Placeholder Label 2</label>
+			<input type="text" placeholder="Placeholder Text" readonly>
+		</div>
+	</div>
+	<div class="container">
+		<div class="box">
+			<label class="box-label">Placeholder Label 3</label>
+			<input type="text" placeholder="Placeholder
