@@ -3,24 +3,41 @@
 <head>
 	<title>Read-only Boxes</title>
 	<style>
-		.read-only-box {
+		body {
 			background-color: #2D8787;
 			color: white;
-			width: 100px;
+			font-size: 18px;
+			text-align: center;
+		}
+		.read-only-box {
+			background-color: white;
+			color: #2D8787;
+			width: calc(100% / 3);
 			height: 30px;
 			border: none;
 			font-size: 18px;
 			text-align: center;
+			transition: all 0.3s ease-in-out;
+			display: inline-block;
+			vertical-align: top;
+		}
+		.read-only-box:hover {
+			background-color: #FFF;
+			color: #2D8787;
+			box-shadow: 0 0 5px #FFF;
 		}
 		.placeholder-paragraph {
-			background-color: #2D8787;
-			color: white;
+			background-color: white;
+			color: #2D8787;
 			width: 300px;
 			height: 100px;
 			border: none;
 			font-size: 18px;
 			padding: 10px;
-			margin-top: 10px;
+			margin: 0 auto;
+			margin-top: 20px;
+			text-align: center;
+			display: block;
 		}
 	</style>
 </head>
