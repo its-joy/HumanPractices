@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sample Page</title>
+	<title>Read-Only View</title>
 	<style>
 		body {
 			background-image: url('https://images.unsplash.com/photo-1518639192442-8fce0a3669e9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
@@ -74,25 +74,26 @@
 			cursor: not-allowed;
 		}
 		
-		@media screen and (max-width: 767px) {
-			.box {
-				width: 100%;
-			}
+		select {
+			display: block;
+			width: 100%;
+			padding: 20px;
+			border: none;
+			background-color: transparent;
+			color: black;
+			font-size: 16px;
+			line-height: 1.5;
+			border-radius: 5px;
+			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+			transition: transform 0.5s ease-in-out;
 		}
-	</style>
-</head>
-<body>
-	<div class="container">
-		<div class="box">
-			<label class="box-label">Placeholder Label 1</label>
-			<input type="text" placeholder="Placeholder Text" readonly>
-		</div>
-		<div class="box">
-			<label class="box-label">Placeholder Label 2</label>
-			<input type="text" placeholder="Placeholder Text" readonly>
-		</div>
-	</div>
-	<div class="container">
-		<div class="box">
-			<label class="box-label">Placeholder Label 3</label>
-			<input type="text" placeholder="Placeholder
+		
+		option {
+			background-color: rgba(255, 255, 255, 0.7);
+		}
+		
+		option:checked {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		
+		@media screen and (max-width: 767
