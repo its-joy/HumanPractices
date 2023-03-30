@@ -17,3 +17,78 @@
         </div>
       </div>
     </section>
+
+
+
+    <section id="Projectcomponents" class="py-5">
+      <h1>Project Components</h1>
+      <!-- Container -->
+      <div class="container">
+  
+          <div class="container">
+            <h1 class="title text-center py-4"></h1>
+  
+            <div class="row">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card m-2 cb2 text-center">
+                        
+                        <div class="card-body">
+                            <img src="Images/dna.png" class="card-img-top" alt="..." height="200" width="50">
+                          <h5 class="card-title">Synthetic Biology</h5>
+                          <h6 class="card-subtitle mb-2 text-body-secondary">Producing MAP using synthetic biology approach to introduce sustainable and innovative manufacture process</h6>
+  
+                          <p class="card-text"></p>
+                          <div class="btn">
+                            <a href="Humanpractices.html" class="btn btn-outline-light">Learn more</a>
+                          </div>
+  
+                        </div>
+                      </div>
+  
+                      
+  
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card m-2 cb2 text-center">
+                        
+                        <div class="card-body">
+                            <img src="Images/sensor.png" class="card-img-top" alt="...">
+                            
+  
+                          <h5 class="card-title">Microneedle</h5>
+                          <h6 class="card-subtitle mb-2 text-body-secondary">lorem</h6>
+  
+                          <p class="card-text"> </p>
+                          <div class="btn">
+                            <a href="Humanpractices.html" class="btn btn-outline-light">Learn more</a>
+                          </div>
+                        </div>
+                      </div>
+  
+                      
+  
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                  <div class="card m-2 cb2 text-center">
+                      
+                      <div class="card-body">
+                          <img src="Images/computer.png" class="card-img-top" alt="...">
+                          
+  
+                        <h5 class="card-title">Software&Algorithm</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem illum ullam, officiis omnis a ratione quod laboriosam sed veritatis ad provident, eligendi earum laborum dolorem quos iusto reiciendis? Explicabo, soluta?</h6>
+  
+                        <p class="card-text"></p>
+                        <div class="btn">
+                          <a href="Humanpractices.html" class="btn btn-outline-light">Learn more</a>
+                        </div>
+                      </div>
+                    </div>
+  
+                    
+  
+              </div>
+            </div>
+          </div>
+      </div>
+  </section>

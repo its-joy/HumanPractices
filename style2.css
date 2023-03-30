@@ -1,22 +1,24 @@
 .banner-image {
-    background-image: url('Images/background2.jpg');
+    background-image: url('Images/bg1.jpg');
     background-size: cover;
   }
 
 body{
-    background-image: url(Images/background2.jpg);
+    background-image: url(Images/bg1.jpg);
     background-size: cover;
 
 }
 
 .row{
-    padding:0.5rem
+    padding:2rem
 }
+
+
 
 
 .card{
     width:90%;
-    max-width:400px;
+    max-width:1900px;
     padding: 5rem 2.5rem;
 
     border-radius:1rem;
