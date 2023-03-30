@@ -9,7 +9,7 @@
     background-size: cover;
   }
 
-button{
+.btn{
     background: /* Gradient in Hex */
     linear-gradient(to right, #2F649A 0%, 14.479638636112213%, #70A6CA 28.959277272224426%, 48.12588369540075%, #BFC85B 67.29249011857708%, 83.64624505928853%, #747929 100%),
     
