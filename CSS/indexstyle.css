@@ -2,15 +2,7 @@
     padding: 1rem;
 }
 
-body{
-    background: /* Gradient in Hex */
-    linear-gradient(to right, #2A65A5 0%, 32.80254900455475%, #755BBF 65.6050980091095%, 82.80254900455475%, #6AC3C9 100%),
-    
-    /* Gradient in RGBA */
-    linear-gradient(to right, rgba(42, 101, 165, 1) 0%, 32.80254900455475%, rgba(117, 91, 191, 1) 65.6050980091095%, 82.80254900455475%, rgba(106, 195, 201, 1) 100%);
-    
-    background-size: cover;
-}
+
 
 .banner-image {
     
