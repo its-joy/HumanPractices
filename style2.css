@@ -6,38 +6,13 @@
 body{
     background-image: url(Images/background2.jpg);
     background-size: cover;
+
 }
 
-/* Border Custom */
-.border-custom {
-    border: 1px solid #444;
-    transition: all 0.4s ease-in-out;
+.row{
+    padding:0.5rem
 }
 
-.border-custom:hover {
-    border-color: var(--bs-blue);
-}
-
-/* Service */
-.icon {
-    width: 60px;
-    height: 60px;
-    background-color: #555;
-    display: grid;
-    align-content: center;
-    text-align: center;
-    font-size: 32px;
-    color: white;
-    transition: all 0.4s ease-in-out;
-}
-
-.icon:hover {
-    background-color: var(--bs-blue);
-}
-
-.service:hover .icon {
-    background-color: var(--bs-blue);
-}
 
 .card{
     width:90%;
@@ -63,3 +38,4 @@ body{
     color:black;
     background: linear-gradient(to right bottom, rgba(225,225,225,0.5), rgba(225,225,225,0.3));
 }
+
