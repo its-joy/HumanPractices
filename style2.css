@@ -10,11 +10,8 @@ body{
 }
 
 .row{
-    padding:2rem
+    padding:1rem
 }
-
-
-
 
 .card{
     width:90%;
@@ -40,4 +37,6 @@ body{
     color:black;
     background: linear-gradient(to right bottom, rgba(225,225,225,0.5), rgba(225,225,225,0.3));
 }
+
+
 
