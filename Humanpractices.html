@@ -46,206 +46,222 @@
         </div>
       </div>
     </nav>
-    <section id="hero" class="min-vh-100 d-grid align-content-center py-5">
-
+    <section id="hero">
       <!-- Container -->
       <div class="container" >
 
           <!-- Row -->
-          <div class="row gy-4 align-items-center">
+          <div class="row gy-4 align-items-center" style="padding-top: 8rem;">
               
               <!-- Col -->
-              <div class="col-lg-12" data-aos="fade-down" data-aos-delay="400">
-                  <h1 class="h3">Summary of Information Gathered</h1>
+              <div class="col-md-5">
+                <img src="Images/humanpracticescycle.png" style="height: 441px; width: 450px" >
+              </div>
+              <div class="col-md-7">
+                  <h1 style="color: rgb(168, 213, 242);">Human Practices</h1>
                 
-                    <p style="color: white;">By gathering valuable feedback from these varied professional perspectives, we were able to better understand the feasibility of our project and adapt accordingly. Our original goal was to create a minimally invasive and efficient continuous glucose monitor through integration with Mussel Adhesive Proteins. However, as we conducted interviews with experts in different fields, we learned that we needed to refocus these goals to better address the needs of Diabetes patients. Our first pivot was deciding to modify our recombinant production process to accommodate production and modification within the yeast chassis. By avoiding a system with the chassis working independently, the pathways would not have to be coordinated and the secretion pathway of mussels could be replicated in P.Pastoris. Once this recombinant protein is produced, it would have to be coated onto the microneedle. Through experimentation with the microneedle, we would have to explore array vs single electrode sensors to find the ideal coating method. The coated microneedle requires a calibrated biosensor that can act as a personal predictive device. Within the scope of this workflow, our team will have to evaluate the extent of what we can accomplish alongside the resources available to us. Furthermore, from our interviews with the AHS Educators, we found that the length of the needle is not necessarily an issue for patients as it’s disguised in the insertion device. Instead, focusing on interoperability, efficiency and user-friendliness will allow Gluessel to address problems currently faced when using CGM’s.</p>
+                    <p style="color: rgb(201, 217, 226);">
+                      Gathering feedback and insights from academic and industry professionals is crucial in guiding our ideation process in these early stages of project development. We conducted interviews with a diverse group of stakeholders to gain perspectives on the various components of our project. These interviews helped advise us on the feasibility of our ideas and ensured we could successfully achieve our project goals. Specifically, we needed informed perspectives regarding:
+                    </p>
 
-                  </p>
+                    <ul style="color: rgb(201, 217, 226);">
+                      <li>The implementation of microneedles for our glucose monitor</li>
+                      <li>The biology of our proposed system and mussel adhesive protein production</li>
+                      <li>The implementation of an algorithm/software for predictive models</li>
+                      <li>Successfully addressing the needs of the diabetic commmunity</li>
+                    </ul>
                   
               </div>
 
           </div>
       </div>
+    </section>
+
+  <section id="Interviews" class="py-5">
+    <details>
+      <summary style="color: rgb(168, 213, 242);">Community</summary>
+      <div class="row">
+      <p style="color: white;padding-bottom: 1rem;">
+        An important aspect of Gluessel was creating a continuous glucose monitor that catered to the needs of our end-users- diabetes patients. By learning more about the process and experience of using a CGM from a patient and clinician’s perspective, we were able to identify inadequacies in current technology and refocus our project to better address them.
+      </p>
+
+      <p style="color: white;padding-bottom: 1rem;">
+        To help us better understand the general experience of Type 2 Diabetes patients who use CGM’s we spoke to Dave Djyur, a Dietitian and Education Consultant at Alberta Health Services (AHS). Given his extensive experience in the Clinical Management and Health Informatics, he helped us identify primary concerns that often make CGM’s difficult to use. During our meeting, Dave mentioned that besides the cost of the devices, most CGM sensors don’t adhere to a patient’s arm or abdomen for the entirety of the sensor’s life-span, forcing patients to reinsert a new device. We also learned that the length of the insertion needle was not a common concern amongst patients and that companies such as Libre had painless and easy insertion methods that didn’t cause discomfort.
+      </p>
+
+      <p style="color: white;padding-bottom: 1rem;">
+        This was also vocalised in our interview with Bev Madrick, a Type 1 Diabetes patient and AHS Education Consultant who specialises in Automated Insulin Delivery (AID) Pumps and Type 1 Diabetes management. Since the needle is hidden in the insertion device, patients don’t often consider the length of the needle. Another aspect we hadn’t considered before was that a CGM device had to serve different purposes between Type 1 and Type 2 Diabetes patients. When using an AID Pump, leading CGM devices aren’t interoperable and can’t work in conjunction with them leaving patients to use “hack pumps”. In addition Bev’s key advice was to focus on the user-experience of our biosensor and app to create a more functional product. Through the algorithm and software, the Interstitial Fluid Glucose time lag could be eradicated ensuring real-time monitoring on an Ambulatory Glucose Profile (AGP). The app associated with the device could also allow patients to generate daily/weekly AGP reports to better keep their diabetes in check.
+      </p>
+
+      <p style="color: white;padding-bottom: 1rem;">
+        Despite our initial goal of implementing microneedle technology into CGM’s, Bev and Dave’s feedback has helped us identify more prominent concerns related to the user-friendliness and longevity of the technology. Through our usage of the recombinantly produced MAP’s our solution needs to focus on extending the lifespan of Glucose-Oxidase and taking advantage of their adhesive properties to skin. An idea that was expressed in both interviews was that it was crucial for the team to try out different CGM’s on ourselves to better understand the experience of using them.  
+      </p>
+
+      </div>
+
+      <div class="row">
+        <div class="card m-2 cb2">
+          <div class="card-body">
+            <h5 class="card-title">KEY TAKEAWAYS</h5>
+            <p class="card-text">
+              <ol>
+                <li>Interoperability of CGM devices with other glucose management technology such as AID Pumps broadens end-user access</li>
+                <li>The insertion needle isn’t a large concern as it’s disguised in the insertion device</li>
+                <li>AGP’s can be intimidating to read so our app should help patients interpret their results</li>
+                <li>Apps that sync with the Cloud don’t have options to generate daily AGP’s from a cellular device </li>
+                <li>Interstitial Time Lag is a larger concern for Type 1 patients</li>
+                <li>Most patients have hesitation toward CGMs due to its high cost</li>
+                <li>Current predictive algorithms are highly inaccurate and don’t reflect real time glucose levels</li>
+              </ol>
+            </p>
+          </div>
+    </div>
+      </div>    
+    </details>
+
+    <details>
+      <summary style="color: rgb(168, 213, 242);">Microneedle</summary>
+      <div class="row">
+        <p style="color: white;padding-bottom: 1rem;">
+          Alongside the integration of MAP Proteins a central part of Gluessel was the usage of microneedles instead of the typical 7mm insertion needle. The microneedle would allow for higher accuracy in the sensor’s reading whilst being minimally invasive compared to existing technology.
+        </p>
+        <p style="color: white;padding-bottom: 1rem;">
+          To discuss the feasibility and implementation of Gluessel, we met with Dr.Colin Dalton, Thomas Lijnse and Lisa Van de Panne from Neuraura. Through their research with microneedle technology, Neuraura has developed effective treatments for metabolic and brain-related disorders. During our discussion we outlined our proposed methodology including our concerns about the electrochemical deposition during the coating of the microneedle denaturing our protein. We learnt that due to the extremely small currents being used, protein denaturation wouldn’t occur and MAP’s could successfully be coated on the microneedle using deposition or a dip-coating hydrogel system. 
+        </p>
+        <p style="color: white;padding-bottom: 1rem;">
+          One of our goals was to reduce the material cost of the Gluessel biosensor to ensure our solution was accessible and affordable. Thomas and Dr.Dalton spoke to us about the disguised costs behind CGM’s outlining that a working Libre and its sensor only have a material cost of $1 despite being sold for $100. The 10 fold increase in the sale price is constituted to the cost of approvals, research and distribution of the device. This being said, given our project timeline the Neuraura team suggested developing a proof of concept as the Microneedle and Biosensor subprojects would be too extensive to finish a prototype.
+        </p>
+        <p style="color: white;padding-bottom: 1rem;">
+          From our interview, we learned that we would have to strategically plan out the wet and dry lab workflow taking into account our timeline and the resources available to us. One proposed solution was a potential partnership with Neuraura to help us coat and test the microneedles with the recombinantly produced MAP’s
+        </p>  
+        </div>
+  
+        <div class="row">
+          <div class="card m-2 cb2">
+            <div class="card-body">
+              <h5 class="card-title">KEY TAKEAWAYS</h5>
+              <p class="card-text">
+                <ol>
+                  <li>Different adhesive methods will yield different results for the coating process</li>
+                  <li>We need to explore the difference between using a single electrode vs. an array of microneedles</li>
+                  <li>Gold Microneedles are preferential as a material because don’t have to be coated in potentially harmful chemicals</li>
+                  <li>Lab Based accuracy of the sensors is difficult to replicate when used in the body (results are an indication rather than an absolute)</li>
+                </ol>
+              </p>
+            </div>
+      </div>
+        </div>    
+    </details>
+          
+
+    <details>
+      <summary style="color: rgb(168, 213, 242);">Biochemistry</summary>
+      <div class="row">
+        <p style="color: white;padding-bottom: 1rem;">
+          Gluessel aims to take advantage of the unique properties of MAP’s for better sensor-skin adhesion and increased longevity of CGM’s through enzyme immobilisation. However, current methods for extracting MAP’s are unsustainable as around 1000 mussels are required to produce 1g of the protein. The recombinant expression of MAP’s would allow for MAP’s to be produced in larger quantities at faster rates.
+        </p>
+        <p style="color: white;padding-bottom: 1rem;">
+          We spoke with Dr. Brianne Burkinshaw, an Assistant Teaching Professor in the Department of Biological Sciences to help us better understand protein production and the considerations when using a bacterial and yeast chassis simultaneously. Since MAP’s are normally secreted by a mussel they naturally have DOPA residues allowing for adhesive properties. Given her experience with secretion systems and recombinant production, Dr.Burkinshaw recommended looking into the differences between the natural and yeast secretion pathways to ensure the conditions were similar.
+        </p>
+
+        <p style="color: white;padding-bottom: 1rem;">Furthermore, our system aims to produce MAP proteins using P.Pastoris as a chassis whilst translational modification to express DOPA would be done through an E.Coli chassis. When using the two organisms for different functions, we learnt that it was important to express the protein in both chassis independently before trying to make them work together. By allowing the systems to work independently, their independent pathways could be manipulated to increase interdependence between the two.</p>
+        <p style="color: white;padding-bottom: 1rem;">Overall, despite the fact that using a yeast chassis would allow for better post-translational modifications, using 2 cells that would act independently could have potential issues as their pathways would be difficult to coordinate.Therefore, Gluessel will aim to express and modify the MAP proteins in the yeast chassis using the E.Coli cell for plasmid propagation. Dr.Burkinshaw also advised us to look at the individual pathways themselves such as the purification process to help find a novel application of the concept.</p>
+        </div>
+  
+        <div class="row">
+          <div class="card m-2 cb2">
+            <div class="card-body">
+              <h5 class="card-title">KEY TAKEAWAYS</h5>
+              <p class="card-text">
+                <ol>
+                  <li>Usage of a buffer can prevent aggregation due to the “sticky” nature of MAP’s</li>
+                  <li>Novelty in production methodology can focus on purification</li>
+                  <li>Secretion pathways must be observed to understand how they can work with the pre-existing machinery of the cell</li>
+                  <li>A yeast chassis would allow for better post-translational modifications</li>
+                  <li>E.Coli and P.Pastoris would work better as a disconnected system</li>
+                </ol>
+              </p>
+            </div>
+      </div>
+        </div>    
+    </details>
+          
+
+    <details>
+      <summary style="color: rgb(168, 213, 242);">Software&Algorithms</summary>
+      <div class="row">
+        <p style="color: white;padding-bottom: 1rem;">For our project, we wanted to explore the idea of integrating a machine learning software algorithm to assist with the glucose monitoring of Gluessel. The goal was to use this algorithm to learn the patterns in a patient’s CGM data in order to make personalised predictions on their glucose levels. 
+        </p>
+        <p style="color: white;padding-bottom: 1rem;">
+          To understand this concept better and its feasibility, we met with Dr. Sayeh Bayat, an Assistant Professor in the Departments of Geomatics Engineering and Biomedical Engineering. A primary focus of her research is using a human-centric approach to machine learning for the detection, diagnosis, monitoring, and treatment of health problems. In our meeting with Dr. Bayet, we got her feedback on using machine learning to create personalised glucose level predictions and whether it was an achievable addition to our project. We learnt the main limitation to this idea was the availability of data. Gathering historical data for a predictive algorithm takes a long time, so finding ways to mitigate this would increase feasibility. Dr. Bayat’s key advice was to focus on the preprocessing steps. She suggested we gather existing datasets to construct a framework where the personalised data can be built onto. She also offered resources we could use to build this background. 
+        </p>
+        <p style="color: white;padding-bottom: 1rem;">By understanding what existing resources we have to work with, we will understand if our idea remains practical for our given timeframe. Dr. Bayat’s insights gives us more to consider during this ideation process, and provided a relevant direction to take our future research. Knowing the time requirement of developing a personalised predictive model for glucose monitoring, we are now finding ways to scale down this concept into something more manageable within the project timeline.
+        </p>
+  
+        <div class="row">
+          <div class="card m-2 cb2">
+            <div class="card-body">
+              <h5 class="card-title">KEY TAKEAWAYS</h5>
+              <p class="card-text">
+                <ol>
+                  <li>Personalized machine learning model requires large set of data</li>
+                  <li>Need reliable and open sourced data to create the algorithm</li>
+                </ol>
+              </p>
+            </div>
+      </div>
+        </div> 
+    </details>
+
+  </section>
+  <section id="conclusion">
+    <div class="row">
+      <div class="card m-2 cb2">
+        <div class="card-body">
+          <h5 class="card-title">Conclusion</h5>
+          <p class="card-text">
+            By gathering valuable feedback from these varied professional perspectives, we were able to better understand the feasibility of our project and adapt accordingly. Our original goal was to create a minimally invasive and efficient continuous glucose monitor through integration with Mussel Adhesive Proteins. However, as we conducted interviews with experts in different fields, we learned that we needed to refocus these goals to better address the needs of Diabetes patients. 
+
+          </p>
+          <p class="card-text" style="padding-bottom:1rem;">
+            Our first pivot was deciding to modify our recombinant production process to accommodate production and modification within the yeast chassis. By avoiding a system with the chassis working independently, the pathways would not have to be coordinated and the secretion pathway of mussels could be replicated in P.Pastoris.
+          </p>
+
+          <p class="card-text" style="padding-bottom:1rem;">
+            Once this recombinant protein is produced, it would have to be coated onto the microneedle. Through experimentation with the microneedle, we would have to explore array vs single electrode sensors to find the ideal coating method. The coated microneedle requires a calibrated biosensor that can act as a personal predictive device. Within the scope of this workflow, our team will have to evaluate the extent of what we can accomplish alongside the resources available to us.
+          </p>
+
+          <p class="card-text">
+            Furthermore, from our interviews with the AHS Educators, we found that the length of the needle is not necessarily an issue for patients as it’s disguised in the insertion device. Instead, focusing on interoperability, efficiency and user-friendliness will allow Gluessel to address problems currently faced when using CGM’s.
+
+          </p>
+        </div>
+  </div>
+
   </section>
 
-  <section id="Project Goals" class="py-5">
-     <!-- Container -->
+
+
+     <!--footer-->
      <div class="container">
-       
-  
-       <h2>Interviews</h2>     
+      <footer class="py-3 my-4" sty>
+        <!--links to other part of websites-->
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
+          <li class="nav-item"><a href="ProjectDescription.html" class="nav-link px-2 text-white">Project Description</a></li>
+          <li class="nav-item"><a href="Attribution.html" class="nav-link px-2 text-white">Attributions</a></li>
+          <li class="nav-item"><a href="Humanpractices.html" class="nav-link px-2 text-white">Human Practices</a></li>
+          <li class="nav-item"><a href="Comparisons.html" class="nav-link px-2 text-white">Comparisons</a></li>
+        </ul>
+        <!--copy right-->
+        <p class="text-center text-white">© 2023 Gluessel, UofC iGEM</p>
+      </footer>
+    </div>
 
-       
-  <style>
-  details {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  summary {
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  p {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-</style>
-
-<details>
-  <summary>Dave Djyur and Bev Madrick</summary>
-  <p style="color: white;">An important aspect of Gluessel was creating a continuous glucose monitor that catered to the needs of our end-users- diabetes patients. By learning more about the process and experience of using a CGM from a patient and clinician’s perspective, we were able to identify inadequacies in current technology and refocus our project to better address them.
-
-
-    To help us better understand the general experience of Type 2 Diabetes patients who use CGM’s we spoke to Dave Djyur, a Dietitian and Education Consultant at Alberta Health Services (AHS). Given his extensive experience in the Clinical Management and Health Informatics, he helped us identify primary concerns that often make CGM’s difficult to use. During our meeting, Dave mentioned that besides the cost of the devices, most CGM sensors don’t adhere to a patient’s arm or abdomen for the entirety of the sensor’s life-span, forcing patients to reinsert a new device. We also learned that the length of the insertion needle was not a common concern amongst patients and that companies such as Libre had painless and easy insertion methods that didn’t cause discomfort.
+    <!--java script-->
+    <script src="nav.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     
-    This was also vocalised in our interview with Bev Madrick, a Type 1 Diabetes patient and AHS Education Consultant who specialises in Automated Insulin Delivery (AID) Pumps and Type 1 Diabetes management. Since the needle is hidden in the insertion device, patients don’t often consider the length of the needle. Another aspect we hadn’t considered before was that a CGM device had to serve different purposes between Type 1 and Type 2 Diabetes patients. When using an AID Pump, leading CGM devices aren’t interoperable and can’t work in conjunction with them leaving patients to use “hack pumps”. In addition Bev’s key advice was to focus on the user-experience of our biosensor and app to create a more functional product. Through the algorithm and software, the Interstitial Fluid Glucose time lag could be eradicated ensuring real-time monitoring on an Ambulatory Glucose Profile (AGP). The app associated with the device could also allow patients to generate daily/weekly AGP reports to better keep their diabetes in check.
-    
-    Despite our initial goal of implementing microneedle technology into CGM’s, Bev and Dave’s feedback has helped us identify more prominent concerns related to the user-friendliness and longevity of the technology. Through our usage of the recombinantly produced MAP’s our solution needs to focus on extending the lifespan of Glucose-Oxidase and taking advantage of their adhesive properties to skin. An idea that was expressed in both interviews was that it was crucial for the team to try out different CGM’s on ourselves to better understand the experience of using them.
-    
-    <p style="color: white;"></p>KEY TAKEAWAYS:
-    <p style="color: white;"></p>1. Interoperability of CGM devices with other glucose management technology such as AID Pumps broadens end-user access
-    <p style="color: white;"></p>2. The insertion needle isn’t a large concern as it’s disguised in the insertion device.
-    <p style="color: white;"></p>3. AGP’s can be intimidating to read so our app should help patients interpret their results.
-    <p style="color: white;"></p>4. Apps that sync with the Cloud don’t have options to generate daily AGP’s from a cellular device.
-    <p style="color: white;"></p>5. Interstitial Time Lag is a larger concern for Type 2 patients
-    <p style="color: white;"></p>6. Only hesitation to transition to CGM’s is the cost associated with it.
-    <p style="color: white;"></p>7. Current predictive algorithms are highly inaccurate and don’t reflect real time glucose levels.  
-  
-  </p>
-</details>
-       
-       <style>
-  details {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  summary {
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  p {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-</style>
-
-<details>
-  <summary>Dr.Colin Dalton, Thomas Lijnse and Lisa Van de Panne from Neuraura</summary>
-  <p style="color: white;">Alongside the integration of MAP Proteins a central part of Gluessel was the usage of microneedles instead of the typical 7mm insertion needle. The microneedle would allow for higher accuracy in the sensor’s reading whilst being minimally invasive compared to existing technology.
-
-    To discuss the feasibility and implementation of Gluessel, we met with Dr.Colin Dalton, Thomas Lijnse and Lisa Van de Panne from Neuraura. Through their research with microneedle technology, Neuraura has developed effective treatments for metabolic and brain-related disorders. During our discussion we outlined our proposed methodology including our concerns about the electrochemical deposition during the coating of the microneedle denaturing our protein. We learnt that due to the extremely small currents being used, protein denaturation wouldn’t occur and MAP’s could successfully be coated on the microneedle using deposition or a dip-coating hydrogel system. 
-    
-    One of our goals was to reduce the material cost of the Gluessel biosensor to ensure our solution was accessible and affordable. Thomas and Dr.Dalton spoke to us about the disguised costs behind CGM’s outlining that a working Libre and its sensor only have a material cost of $1 despite being sold for $100. The 10 fold increase in the sale price is constituted to the cost of approvals, research and distribution of the device. This being said, given our project timeline the Neuraura team suggested developing a proof of concept as the Microneedle and Biosensor subprojects would be too extensive to finish a prototype.
-    
-    From our interview, we learned that we would have to strategically plan out the wet and dry lab workflow taking into account our timeline and the resources available to us. One proposed solution was a potential partnership with Neuraura to help us coat and test the microneedles with the recombinantly produced MAP’s
-
-    <p style="color: white;"></p>KEY TAKEAWAYS:
-    <p style="color: white;"></p>1. Different adhesive methods will yield different results for the coating process.
-    <p style="color: white;"></p>2. We need to explore the difference between using a single electrode vs. an array of microneedles.
-    <p style="color: white;"></p>3. Gold Microneedles are preferential as a material because don’t have to be coated in potentially harmful chemicals.
-    <p style="color: white;"></p>4.Lab Based accuracy of the sensors is difficult to replicate when used in the body (results are an indication rather than an absolute).
-    </p>
-</details>
-       
-       <style>
-  details {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  summary {
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  p {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-</style>
-
-<details>
-  <summary>Dr.Burkinshaw</summary>
-  <p style="color: white;">Gluessel aims to take advantage of the unique properties of MAP’s for better sensor-skin adhesion and increased longevity of CGM’s through enzyme immobilisation. However, current methods for extracting MAP’s are unsustainable as around 1000 mussels are required to produce 1g of the protein. The recombinant expression of MAP’s would allow for MAP’s to be produced in larger quantities at faster rates.
-
-    We spoke with Dr. Brianne Burkinshaw, an Assistant Teaching Professor in the Department of Biological Sciences to help us better understand protein production and the considerations when using a bacterial and yeast chassis simultaneously. Since MAP’s are normally secreted by a mussel they naturally have DOPA residues allowing for adhesive properties. Given her experience with secretion systems and recombinant production, Dr.Burkinshaw recommended looking into the differences between the natural and yeast secretion pathways to ensure the conditions were similar.
-    
-    
-    Furthermore, our system aims to produce MAP proteins using P.Pastoris as a chassis whilst translational modification to express DOPA would be done through an E.Coli chassis. When using the two organisms for different functions, we learnt that it was important to express the protein in both chassis independently before trying to make them work together. By allowing the systems to work independently, their independent pathways could be manipulated to increase interdependence between the two.
-    
-    Overall, despite the fact that using a yeast chassis would allow for better post-translational modifications, using 2 cells that would act independently could have potential issues as their pathways would be difficult to coordinate.Therefore, Gluessel will aim to express and modify the MAP proteins in the yeast chassis using the E.Coli cell for plasmid propagation. Dr.Burkinshaw also advised us to look at the individual pathways themselves such as the purification process to help find a novel application of the concept.
-    
-    <p style="color: white;"></p>KEY TAKEAWAYS:
-    <p style="color: white;"></p>1. Usage of a buffer can prevent aggregation due to the “sticky” nature of MAP’s.
-    <p style="color: white;"></p>2. Novelty in production methodology can focus on purification.
-    <p style="color: white;"></p>3. Secretion pathways must be observed to understand how they can work with the pre-existing machinery of the cell.
-    <p style="color: white;"></p>4. A yeast chassis would allow for better post-translational modifications.
-    <p style="color: white;"></p>5. E.Coli and P.Pastoris would work better as a disconnected system.
-
-  </p>
-</details>
-       
-       <style>
-  details {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  summary {
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  p {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-</style>
-
-<details>
-  <summary>Dr. Sayeh Bayet</summary>
-  <p style="color: white;">For our project, we wanted to explore the idea of integrating a machine learning software algorithm to assist with the glucose monitoring of Gluessel. The goal was to use this algorithm to learn the patterns in a patient’s CGM data in order to make personalised predictions on their glucose levels. 
-
-    To understand this concept better and its feasibility, we met with Dr. Sayeh Bayat, an Assistant Professor in the Departments of Geomatics Engineering and Biomedical Engineering. A primary focus of her research is using a human-centric approach to machine learning for the detection, diagnosis, monitoring, and treatment of health problems. In our meeting with Dr. Bayet, we got her feedback on using machine learning to create personalised glucose level predictions and whether it was an achievable addition to our project. We learnt the main limitation to this idea was the availability of data. Gathering historical data for a predictive algorithm takes a long time, so finding ways to mitigate this would increase feasibility. Dr. Bayat’s key advice was to focus on the preprocessing steps. She suggested we gather existing datasets to construct a framework where the personalised data can be built onto. She also offered resources we could use to build this background. 
-    
-    By understanding what existing resources we have to work with, we will understand if our idea remains practical for our given timeframe. Dr. Bayat’s insights gives us more to consider during this ideation process, and provided a relevant direction to take our future research. Knowing the time requirement of developing a personalised predictive model for glucose monitoring, we are now finding ways to scale down this concept into something more manageable within the project timeline.
-    
-  
-  </p>
-</details>
-       
-       <style>
-  details {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  summary {
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  p {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-</style>
-
-</details>
- 
- 
-  </body>
+    </body>
+</html>
