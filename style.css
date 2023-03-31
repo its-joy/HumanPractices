@@ -1,14 +1,5 @@
-/**{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
-}*/
-
-
+/*body*/
 body{
-    /*width: 100%;
-    height: 100vh;*/
     background-image: url(Images/background.jpg);
     background-size: cover;
     background-position: center;
@@ -17,27 +8,31 @@ body{
 
 }
 
+
 .title{
     margin: 60px;
     width:100%;
     max-width:40rem;
     font-size: 4rem;
     text-align:center;
-
 }
 
+/*card properties*/
 .card{
-    width:90%;
+    width:90%; 
     max-width:400px;
     padding: 5rem 2.5rem;
 
+    /*setting round border*/
     border-radius:1rem;
-    border:1px solid transparent;
+    border:1px solid transparent; /*tranparent border*/
     
+    /*creating a glass effect*/
     -webkit-backdrop-filter: blur(1rem);
     backdrop-filter: blur(1rem);
-    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5); /*add shadow*/
 
+    /*border color*/
     border-top-color: rgba(225,225,225,0.5);
     border-left-color: rgba(225,225,225,0.5);
     border-bottom-color: rgba(225,225,225,0.1);
@@ -46,16 +41,13 @@ body{
 
 }
 
-.cb1{
-    background-color: rgba(225,225,225,0.1);
-
-}
-
+/*card body background color*/
 .cb2{
     color:black;
     background: linear-gradient(to right bottom, rgba(225,225,225,0.5), rgba(225,225,225,0.3));
 }
 
+/*properties of "Human Practices" button*/
 .btn{
     border-radius: 2rem;
     /*border: rgba(5, 5, 5, 0.603);*/
@@ -63,7 +55,7 @@ body{
     color: rgba(5, 5, 5, 0.603);
 }
 
+/*hover effect*/
 .btn:hover{
     box-shadow: 0 0.3rem 1rem rgba(0,0,0,0.3);
 }
-

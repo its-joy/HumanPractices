@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Attribution</title>
+    <title>Attributions</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   
     <!----Main CSS-->
@@ -13,7 +13,7 @@
     <!--Nav Bar-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
         <div class="container">
-          <a class="navbar-brand" href="#">Attributes</a>
+          <a class="navbar-brand" href="#">Attributions</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -36,7 +36,7 @@
                 <a class="nav-link text-white" href="ProjectDescription.html">Project Description</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="Attribution.html">Attributes</a>
+                <a class="nav-link text-white" href="Attribution.html">Attributions</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="Humanpractices.html">Human Practices</a>
@@ -47,14 +47,16 @@
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
 
     <!--Main Content-->
     <div class="container">
         <h1 class="title text-center py-4"></h1>
-
+        <!--first row-->
         <div class="row">
+            <!--col-->
             <div class="col-md-6 d-flex justify-content-center">
+                <!--card/content-->
                 <div class="card m-2 cb2 text-center">
                     
                     <div class="card-body">
@@ -65,22 +67,21 @@
                       <h6 class="card-subtitle mb-2 text-body-secondary">Assistant Professor of Schulich School Engineering,Co-Founder of Neuraura</h6>
 
                       <p class="card-text">
-                          Dr.Dalton's area of research focus on microfluidics, electrokinetics, lab on a chip, micro/nano fabrication, and microneedl-electrode arrays. He founded Neuraus along with other
-                          Co-Founders based on his reseach project on microneedle. 
+                          Dr. Dalton’s area of research focuses on microfluidics, electrokinetics, lab on a chip, micro/nano fabrication and microneedle arrays. He founded Neuraura alongside the other co-founders based on his research project on microneedles.
+
                       </p>
 
                       <a href="Humanpractices.html" class="btn btn-outline-light">Human Practices</a>
                         
                       
                     </div>
-                  </div>
-
-                  
-
+                </div>
             </div>
+            <!--col-->
             <div class="col-md-6 d-flex justify-content-center">
+                <!--card/content-->
                 <div class="card m-2 cb2 text-center">
-                    
+                    <!--content-->
                     <div class="card-body">
                         <img src="Images/lisa.png" class="card-img-top" alt="...">
                         
@@ -95,12 +96,13 @@
 
                       
                     </div>
-                  </div>
+                </div>
 
                   
 
             </div>
         </div>
+        <!--second row-->
         <div class="row">
             <div class="col-md-6 d-flex justify-content-center">
                 <div class="card m-2 cb2 text-center">
@@ -147,8 +149,7 @@
 
           </div>
         </div>
-
-
+        <!--third row-->
         <div class="row">
 
             <div class="col-md-6 d-flex justify-content-center">
@@ -196,7 +197,7 @@
 
             </div>
         </div>
-
+        <!--fourth row-->
         <div class="row">
 
           <div class="col-md-6 d-flex justify-content-center">
@@ -223,25 +224,27 @@
 
           </div>
         </div>
-      
-
     </div>
+
+    <!--footer-->
+    <div class="container">
+      <footer class="py-3 my-4" sty>
+        <!--links to other part of websites-->
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
+          <li class="nav-item"><a href="ProjectDescription.html" class="nav-link px-2 text-white">Project Description</a></li>
+          <li class="nav-item"><a href="Attribution.html" class="nav-link px-2 text-white">Attributions</a></li>
+          <li class="nav-item"><a href="Humanpractices.html" class="nav-link px-2 text-white">Human Practices</a></li>
+          <li class="nav-item"><a href="Comparisons.html" class="nav-link px-2 text-white">Comparisons</a></li>
+        </ul>
+        <!--copy right-->
+        <p class="text-center text-white">© 2023 Gluessel, UofC iGEM</p>
+      </footer>
+    </div>
+
+    <!--java script-->
+    <script src="nav.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript">
-      var nav = document.querySelector('nav');
-
-      window.addEventListener('scroll', function () {
-        if (window.pageYOffset > 100) {
-          nav.classList.add('bg-dark', 'shadow');
-        } else {
-          nav.classList.remove('bg-dark', 'shadow');
-        }
-      }); 
-    </script>
-
-
-
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
   </body>
 </html>
